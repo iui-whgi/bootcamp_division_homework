@@ -6,6 +6,20 @@
 def main():
     # 이곳에 코드를 작성해주세요!
 
+    정수 = int(input())
+
+    합=0
+    팩토리얼=1
+
+    for i in range(1,정수+1):
+        합 = 합+i
+        팩토리얼 = 팩토리얼*i
+
+    print(합)
+    print(팩토리얼)
+
+    
+
     return
 
 

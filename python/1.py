@@ -4,8 +4,11 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    정수 = int(input())
+    
+    백,십 = divmod(정수,100)
+    십,일 = divmod( 십,10)
+    print(일,십,백,sep='')
     return
 
 

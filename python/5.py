@@ -4,10 +4,17 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    나이 = int(input())
+    키 = int(input())
+
+    if 나이>=14 or 키>=160:
+        print('X')
+    else:
+        print('O')
 
     return
 
 
 if __name__ == '__main__':
     main()
+

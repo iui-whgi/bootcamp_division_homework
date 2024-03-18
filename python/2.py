@@ -4,7 +4,11 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    나이 = int(input())
+    
+    if 나이>=61:
+        print('DISCOUNT')
+    print('BOARD')
 
     return
 
